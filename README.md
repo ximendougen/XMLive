@@ -26,7 +26,7 @@
 
 ![Mou icon](http://a1.qpic.cn/psb?/V13bEYKN3PHP3i/HlRlTyJaZV33bpNK55KcmM*1wW2bzH4sZaOkIWD*dio!/m/dNwAAAAAAAAA&bo=EgJ.AQAAAAADB00!&rf=photolist)
 
-绿色圈起来的是需要从第三方下载的库(*我这有份新鲜的大家可以拿去用*--[ijk & 腾讯IMSDK(10月合并最新库)](链接: https://pan.baidu.com/s/1gffY72j) 密码: fixp)
+绿色圈起来的是需要从第三方下载的库(*我这有份新鲜的大家可以拿去用*--[ijk & 腾讯IMSDK(10月合并最新库)](https://pan.baidu.com/s/1gffY72j) 密码: fixp)
 
 
 #### 2. *XMFFPlayerManager* 的使用

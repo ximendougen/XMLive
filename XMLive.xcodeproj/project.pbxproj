@@ -1,0 +1,710 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68DEEF0BF1AB88E6EC6237D1 /* libPods-XMLive.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5218C6FE8C53A5DDE1E28A56 /* libPods-XMLive.a */; };
+		B87FB1D91DD176790000DC41 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B87FB1D81DD176790000DC41 /* main.m */; };
+		B87FB1DC1DD176790000DC41 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B87FB1DB1DD176790000DC41 /* AppDelegate.m */; };
+		B87FB1E41DD176790000DC41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B87FB1E31DD176790000DC41 /* Assets.xcassets */; };
+		B87FB1E71DD176790000DC41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B87FB1E51DD176790000DC41 /* LaunchScreen.storyboard */; };
+		B87FB1F21DD177AF0000DC41 /* XMFFPlayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B87FB1F11DD177AF0000DC41 /* XMFFPlayerManager.m */; };
+		B87FB1F91DD1B7050000DC41 /* XMPhonePlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = B87FB1F81DD1B7050000DC41 /* XMPhonePlayerController.m */; };
+		B87FB1FC1DD1B71E0000DC41 /* XMPCPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = B87FB1FB1DD1B71E0000DC41 /* XMPCPlayerController.m */; };
+		B87FB2011DD1BA800000DC41 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B87FB2001DD1BA800000DC41 /* MainViewController.m */; };
+		B87FB2041DD1BAA20000DC41 /* XMRotatoUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B87FB2031DD1BAA20000DC41 /* XMRotatoUtil.m */; };
+		B87FB2071DD1BD1E0000DC41 /* XMPhoneView.m in Sources */ = {isa = PBXBuildFile; fileRef = B87FB2061DD1BD1E0000DC41 /* XMPhoneView.m */; };
+		B87FB20A1DD1BD6E0000DC41 /* XMBarrageViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B87FB2091DD1BD6E0000DC41 /* XMBarrageViewCell.m */; };
+		B87FB20D1DD1BDEE0000DC41 /* XMPCSmallScreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = B87FB20C1DD1BDEE0000DC41 /* XMPCSmallScreenView.m */; };
+		B87FB2101DD1BE360000DC41 /* XMPCFullScreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = B87FB20F1DD1BE360000DC41 /* XMPCFullScreenView.m */; };
+		B87FB23B1DD1C4D20000DC41 /* XMIMController.m in Sources */ = {isa = PBXBuildFile; fileRef = B87FB23A1DD1C4D20000DC41 /* XMIMController.m */; };
+		B87FB2401DD1C6A60000DC41 /* XMMessageInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B87FB23F1DD1C6A60000DC41 /* XMMessageInfo.m */; };
+		B87FB2541DD1D95D0000DC41 /* DanmakuView.m in Sources */ = {isa = PBXBuildFile; fileRef = B87FB2441DD1D95D0000DC41 /* DanmakuView.m */; };
+		B87FB2551DD1D95D0000DC41 /* DanmakuBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B87FB2471DD1D95D0000DC41 /* DanmakuBaseModel.m */; };
+		B87FB2561DD1D95D0000DC41 /* DanmakuTime.m in Sources */ = {isa = PBXBuildFile; fileRef = B87FB2491DD1D95D0000DC41 /* DanmakuTime.m */; };
+		B87FB2571DD1D95D0000DC41 /* DanmakuRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = B87FB24C1DD1D95D0000DC41 /* DanmakuRenderer.m */; };
+		B87FB2581DD1D95D0000DC41 /* DanmakuRetainer.m in Sources */ = {isa = PBXBuildFile; fileRef = B87FB24E1DD1D95D0000DC41 /* DanmakuRetainer.m */; };
+		B87FB2591DD1D95D0000DC41 /* DanmakuFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = B87FB2511DD1D95D0000DC41 /* DanmakuFactory.m */; };
+		B87FB25A1DD1D95D0000DC41 /* DanmakuFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = B87FB2531DD1D95D0000DC41 /* DanmakuFilter.m */; };
+		B87FB2601DD2BCAB0000DC41 /* IMCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B87FB25B1DD2BCAB0000DC41 /* IMCore.framework */; };
+		B87FB2611DD2BCAB0000DC41 /* ImSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B87FB25C1DD2BCAB0000DC41 /* ImSDK.framework */; };
+		B87FB2621DD2BCAB0000DC41 /* IMSDKBugly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B87FB25D1DD2BCAB0000DC41 /* IMSDKBugly.framework */; };
+		B87FB2631DD2BCAB0000DC41 /* QALSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B87FB25E1DD2BCAB0000DC41 /* QALSDK.framework */; };
+		B87FB2641DD2BCAB0000DC41 /* TLSSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B87FB25F1DD2BCAB0000DC41 /* TLSSDK.framework */; };
+		B87FB2661DD2BCCE0000DC41 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B87FB2651DD2BCCE0000DC41 /* IJKMediaFramework.framework */; };
+		B87FB2681DD2BCE60000DC41 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B87FB2671DD2BCE60000DC41 /* VideoToolbox.framework */; };
+		B87FB26A1DD2BCEE0000DC41 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B87FB2691DD2BCEE0000DC41 /* UIKit.framework */; };
+		B87FB26C1DD2BCF70000DC41 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B87FB26B1DD2BCF70000DC41 /* QuartzCore.framework */; };
+		B87FB26E1DD2BD030000DC41 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B87FB26D1DD2BD030000DC41 /* OpenGLES.framework */; };
+		B87FB2701DD2BD0C0000DC41 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B87FB26F1DD2BD0C0000DC41 /* MobileCoreServices.framework */; };
+		B87FB2721DD2BD160000DC41 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B87FB2711DD2BD160000DC41 /* MediaPlayer.framework */; };
+		B87FB2741DD2BD220000DC41 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B87FB2731DD2BD220000DC41 /* CoreVideo.framework */; };
+		B87FB2761DD2BD300000DC41 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B87FB2751DD2BD300000DC41 /* CoreMedia.framework */; };
+		B87FB2781DD2BD390000DC41 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B87FB2771DD2BD390000DC41 /* CoreGraphics.framework */; };
+		B87FB27A1DD2BD410000DC41 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B87FB2791DD2BD410000DC41 /* AVFoundation.framework */; };
+		B87FB27C1DD2BD490000DC41 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B87FB27B1DD2BD490000DC41 /* AudioToolbox.framework */; };
+		B87FB27E1DD2BD540000DC41 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B87FB27D1DD2BD540000DC41 /* libbz2.tbd */; };
+		B87FB2801DD2BD5F0000DC41 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B87FB27F1DD2BD5F0000DC41 /* libz.tbd */; };
+		B87FB2821DD2BD8F0000DC41 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B87FB2811DD2BD8F0000DC41 /* libsqlite3.tbd */; };
+		B87FB2841DD2BD9C0000DC41 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B87FB2831DD2BD9C0000DC41 /* libc++.tbd */; };
+		B87FB2861DD2BDA40000DC41 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B87FB2851DD2BDA40000DC41 /* SystemConfiguration.framework */; };
+		B87FB2881DD2BDAC0000DC41 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B87FB2871DD2BDAC0000DC41 /* CoreTelephony.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5218C6FE8C53A5DDE1E28A56 /* libPods-XMLive.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XMLive.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F8FBB8B622C4C16C4B83CEA /* Pods-XMLive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMLive.release.xcconfig"; path = "Pods/Target Support Files/Pods-XMLive/Pods-XMLive.release.xcconfig"; sourceTree = "<group>"; };
+		B87FB1D41DD176790000DC41 /* XMLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B87FB1D81DD176790000DC41 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B87FB1DA1DD176790000DC41 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B87FB1DB1DD176790000DC41 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B87FB1E31DD176790000DC41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B87FB1E61DD176790000DC41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B87FB1E81DD176790000DC41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B87FB1F01DD177AF0000DC41 /* XMFFPlayerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMFFPlayerManager.h; sourceTree = "<group>"; };
+		B87FB1F11DD177AF0000DC41 /* XMFFPlayerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMFFPlayerManager.m; sourceTree = "<group>"; };
+		B87FB1F41DD1B3A80000DC41 /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		B87FB1F71DD1B7050000DC41 /* XMPhonePlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPhonePlayerController.h; sourceTree = "<group>"; };
+		B87FB1F81DD1B7050000DC41 /* XMPhonePlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPhonePlayerController.m; sourceTree = "<group>"; };
+		B87FB1FA1DD1B71E0000DC41 /* XMPCPlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPCPlayerController.h; sourceTree = "<group>"; };
+		B87FB1FB1DD1B71E0000DC41 /* XMPCPlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPCPlayerController.m; sourceTree = "<group>"; };
+		B87FB1FF1DD1BA800000DC41 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		B87FB2001DD1BA800000DC41 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		B87FB2021DD1BAA20000DC41 /* XMRotatoUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMRotatoUtil.h; sourceTree = "<group>"; };
+		B87FB2031DD1BAA20000DC41 /* XMRotatoUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMRotatoUtil.m; sourceTree = "<group>"; };
+		B87FB2051DD1BD1E0000DC41 /* XMPhoneView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPhoneView.h; sourceTree = "<group>"; };
+		B87FB2061DD1BD1E0000DC41 /* XMPhoneView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPhoneView.m; sourceTree = "<group>"; };
+		B87FB2081DD1BD6E0000DC41 /* XMBarrageViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMBarrageViewCell.h; sourceTree = "<group>"; };
+		B87FB2091DD1BD6E0000DC41 /* XMBarrageViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMBarrageViewCell.m; sourceTree = "<group>"; };
+		B87FB20B1DD1BDEE0000DC41 /* XMPCSmallScreenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPCSmallScreenView.h; sourceTree = "<group>"; };
+		B87FB20C1DD1BDEE0000DC41 /* XMPCSmallScreenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPCSmallScreenView.m; sourceTree = "<group>"; };
+		B87FB20E1DD1BE360000DC41 /* XMPCFullScreenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPCFullScreenView.h; sourceTree = "<group>"; };
+		B87FB20F1DD1BE360000DC41 /* XMPCFullScreenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPCFullScreenView.m; sourceTree = "<group>"; };
+		B87FB2391DD1C4D20000DC41 /* XMIMController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMIMController.h; sourceTree = "<group>"; };
+		B87FB23A1DD1C4D20000DC41 /* XMIMController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMIMController.m; sourceTree = "<group>"; };
+		B87FB23E1DD1C6A60000DC41 /* XMMessageInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMMessageInfo.h; sourceTree = "<group>"; };
+		B87FB23F1DD1C6A60000DC41 /* XMMessageInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMMessageInfo.m; sourceTree = "<group>"; };
+		B87FB2431DD1D95D0000DC41 /* DanmakuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DanmakuView.h; sourceTree = "<group>"; };
+		B87FB2441DD1D95D0000DC41 /* DanmakuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DanmakuView.m; sourceTree = "<group>"; };
+		B87FB2461DD1D95D0000DC41 /* DanmakuBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DanmakuBaseModel.h; sourceTree = "<group>"; };
+		B87FB2471DD1D95D0000DC41 /* DanmakuBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DanmakuBaseModel.m; sourceTree = "<group>"; };
+		B87FB2481DD1D95D0000DC41 /* DanmakuTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DanmakuTime.h; sourceTree = "<group>"; };
+		B87FB2491DD1D95D0000DC41 /* DanmakuTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DanmakuTime.m; sourceTree = "<group>"; };
+		B87FB24B1DD1D95D0000DC41 /* DanmakuRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DanmakuRenderer.h; sourceTree = "<group>"; };
+		B87FB24C1DD1D95D0000DC41 /* DanmakuRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DanmakuRenderer.m; sourceTree = "<group>"; };
+		B87FB24D1DD1D95D0000DC41 /* DanmakuRetainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DanmakuRetainer.h; sourceTree = "<group>"; };
+		B87FB24E1DD1D95D0000DC41 /* DanmakuRetainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DanmakuRetainer.m; sourceTree = "<group>"; };
+		B87FB2501DD1D95D0000DC41 /* DanmakuFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DanmakuFactory.h; sourceTree = "<group>"; };
+		B87FB2511DD1D95D0000DC41 /* DanmakuFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DanmakuFactory.m; sourceTree = "<group>"; };
+		B87FB2521DD1D95D0000DC41 /* DanmakuFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DanmakuFilter.h; sourceTree = "<group>"; };
+		B87FB2531DD1D95D0000DC41 /* DanmakuFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DanmakuFilter.m; sourceTree = "<group>"; };
+		B87FB25B1DD2BCAB0000DC41 /* IMCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IMCore.framework; sourceTree = "<group>"; };
+		B87FB25C1DD2BCAB0000DC41 /* ImSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ImSDK.framework; sourceTree = "<group>"; };
+		B87FB25D1DD2BCAB0000DC41 /* IMSDKBugly.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IMSDKBugly.framework; sourceTree = "<group>"; };
+		B87FB25E1DD2BCAB0000DC41 /* QALSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QALSDK.framework; sourceTree = "<group>"; };
+		B87FB25F1DD2BCAB0000DC41 /* TLSSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TLSSDK.framework; sourceTree = "<group>"; };
+		B87FB2651DD2BCCE0000DC41 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
+		B87FB2671DD2BCE60000DC41 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		B87FB2691DD2BCEE0000DC41 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B87FB26B1DD2BCF70000DC41 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B87FB26D1DD2BD030000DC41 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		B87FB26F1DD2BD0C0000DC41 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		B87FB2711DD2BD160000DC41 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		B87FB2731DD2BD220000DC41 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		B87FB2751DD2BD300000DC41 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		B87FB2771DD2BD390000DC41 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B87FB2791DD2BD410000DC41 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B87FB27B1DD2BD490000DC41 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		B87FB27D1DD2BD540000DC41 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		B87FB27F1DD2BD5F0000DC41 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		B87FB2811DD2BD8F0000DC41 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		B87FB2831DD2BD9C0000DC41 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		B87FB2851DD2BDA40000DC41 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B87FB2871DD2BDAC0000DC41 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		F7BCEF9CA8340CD7B4E1DFF5 /* Pods-XMLive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMLive.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XMLive/Pods-XMLive.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B87FB1D11DD176790000DC41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B87FB2621DD2BCAB0000DC41 /* IMSDKBugly.framework in Frameworks */,
+				B87FB2631DD2BCAB0000DC41 /* QALSDK.framework in Frameworks */,
+				B87FB2641DD2BCAB0000DC41 /* TLSSDK.framework in Frameworks */,
+				B87FB2611DD2BCAB0000DC41 /* ImSDK.framework in Frameworks */,
+				B87FB2601DD2BCAB0000DC41 /* IMCore.framework in Frameworks */,
+				B87FB2881DD2BDAC0000DC41 /* CoreTelephony.framework in Frameworks */,
+				B87FB2861DD2BDA40000DC41 /* SystemConfiguration.framework in Frameworks */,
+				B87FB2841DD2BD9C0000DC41 /* libc++.tbd in Frameworks */,
+				B87FB2821DD2BD8F0000DC41 /* libsqlite3.tbd in Frameworks */,
+				B87FB2661DD2BCCE0000DC41 /* IJKMediaFramework.framework in Frameworks */,
+				B87FB2801DD2BD5F0000DC41 /* libz.tbd in Frameworks */,
+				B87FB27E1DD2BD540000DC41 /* libbz2.tbd in Frameworks */,
+				B87FB27C1DD2BD490000DC41 /* AudioToolbox.framework in Frameworks */,
+				B87FB27A1DD2BD410000DC41 /* AVFoundation.framework in Frameworks */,
+				B87FB2781DD2BD390000DC41 /* CoreGraphics.framework in Frameworks */,
+				B87FB2761DD2BD300000DC41 /* CoreMedia.framework in Frameworks */,
+				B87FB2741DD2BD220000DC41 /* CoreVideo.framework in Frameworks */,
+				B87FB2721DD2BD160000DC41 /* MediaPlayer.framework in Frameworks */,
+				B87FB2701DD2BD0C0000DC41 /* MobileCoreServices.framework in Frameworks */,
+				B87FB26E1DD2BD030000DC41 /* OpenGLES.framework in Frameworks */,
+				B87FB26C1DD2BCF70000DC41 /* QuartzCore.framework in Frameworks */,
+				B87FB26A1DD2BCEE0000DC41 /* UIKit.framework in Frameworks */,
+				B87FB2681DD2BCE60000DC41 /* VideoToolbox.framework in Frameworks */,
+				68DEEF0BF1AB88E6EC6237D1 /* libPods-XMLive.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C23AB31085C45169DB25449 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5218C6FE8C53A5DDE1E28A56 /* libPods-XMLive.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B87FB1CB1DD176790000DC41 = {
+			isa = PBXGroup;
+			children = (
+				B87FB1D61DD176790000DC41 /* XMLive */,
+				B87FB1D51DD176790000DC41 /* Products */,
+				DC06A2F2EC5AAE1DD2BD9297 /* Pods */,
+				3C23AB31085C45169DB25449 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B87FB1D51DD176790000DC41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B87FB1D41DD176790000DC41 /* XMLive.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B87FB1D61DD176790000DC41 /* XMLive */ = {
+			isa = PBXGroup;
+			children = (
+				B87FB22D1DD1C2760000DC41 /* IM */,
+				B87FB1EF1DD176FE0000DC41 /* FFlive */,
+				B87FB1EE1DD176F80000DC41 /* Main */,
+				B87FB2411DD1D9470000DC41 /* External */,
+				B87FB1D71DD176790000DC41 /* Supporting Files */,
+			);
+			path = XMLive;
+			sourceTree = "<group>";
+		};
+		B87FB1D71DD176790000DC41 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B87FB1DA1DD176790000DC41 /* AppDelegate.h */,
+				B87FB1DB1DD176790000DC41 /* AppDelegate.m */,
+				B87FB1F41DD1B3A80000DC41 /* Prefix.pch */,
+				B87FB1E31DD176790000DC41 /* Assets.xcassets */,
+				B87FB1E51DD176790000DC41 /* LaunchScreen.storyboard */,
+				B87FB1E81DD176790000DC41 /* Info.plist */,
+				B87FB1D81DD176790000DC41 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B87FB1EE1DD176F80000DC41 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B87FB1FF1DD1BA800000DC41 /* MainViewController.h */,
+				B87FB2001DD1BA800000DC41 /* MainViewController.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		B87FB1EF1DD176FE0000DC41 /* FFlive */ = {
+			isa = PBXGroup;
+			children = (
+				B87FB1F01DD177AF0000DC41 /* XMFFPlayerManager.h */,
+				B87FB1F11DD177AF0000DC41 /* XMFFPlayerManager.m */,
+				B87FB1F61DD1B6E70000DC41 /* Controller */,
+				B87FB1FD1DD1BA200000DC41 /* View */,
+				B87FB1FE1DD1BA270000DC41 /* Util */,
+				B87FB1F51DD1B6210000DC41 /* frameworks */,
+			);
+			name = FFlive;
+			sourceTree = "<group>";
+		};
+		B87FB1F51DD1B6210000DC41 /* frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B87FB27F1DD2BD5F0000DC41 /* libz.tbd */,
+				B87FB27D1DD2BD540000DC41 /* libbz2.tbd */,
+				B87FB27B1DD2BD490000DC41 /* AudioToolbox.framework */,
+				B87FB2791DD2BD410000DC41 /* AVFoundation.framework */,
+				B87FB2771DD2BD390000DC41 /* CoreGraphics.framework */,
+				B87FB2751DD2BD300000DC41 /* CoreMedia.framework */,
+				B87FB2731DD2BD220000DC41 /* CoreVideo.framework */,
+				B87FB2711DD2BD160000DC41 /* MediaPlayer.framework */,
+				B87FB26F1DD2BD0C0000DC41 /* MobileCoreServices.framework */,
+				B87FB26D1DD2BD030000DC41 /* OpenGLES.framework */,
+				B87FB26B1DD2BCF70000DC41 /* QuartzCore.framework */,
+				B87FB2691DD2BCEE0000DC41 /* UIKit.framework */,
+				B87FB2671DD2BCE60000DC41 /* VideoToolbox.framework */,
+				B87FB2651DD2BCCE0000DC41 /* IJKMediaFramework.framework */,
+			);
+			name = frameworks;
+			sourceTree = "<group>";
+		};
+		B87FB1F61DD1B6E70000DC41 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B87FB1F71DD1B7050000DC41 /* XMPhonePlayerController.h */,
+				B87FB1F81DD1B7050000DC41 /* XMPhonePlayerController.m */,
+				B87FB1FA1DD1B71E0000DC41 /* XMPCPlayerController.h */,
+				B87FB1FB1DD1B71E0000DC41 /* XMPCPlayerController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		B87FB1FD1DD1BA200000DC41 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B87FB2051DD1BD1E0000DC41 /* XMPhoneView.h */,
+				B87FB2061DD1BD1E0000DC41 /* XMPhoneView.m */,
+				B87FB2081DD1BD6E0000DC41 /* XMBarrageViewCell.h */,
+				B87FB2091DD1BD6E0000DC41 /* XMBarrageViewCell.m */,
+				B87FB20B1DD1BDEE0000DC41 /* XMPCSmallScreenView.h */,
+				B87FB20C1DD1BDEE0000DC41 /* XMPCSmallScreenView.m */,
+				B87FB20E1DD1BE360000DC41 /* XMPCFullScreenView.h */,
+				B87FB20F1DD1BE360000DC41 /* XMPCFullScreenView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		B87FB1FE1DD1BA270000DC41 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				B87FB2021DD1BAA20000DC41 /* XMRotatoUtil.h */,
+				B87FB2031DD1BAA20000DC41 /* XMRotatoUtil.m */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		B87FB22D1DD1C2760000DC41 /* IM */ = {
+			isa = PBXGroup;
+			children = (
+				B87FB23D1DD1C6760000DC41 /* controller */,
+				B87FB23C1DD1C66D0000DC41 /* model */,
+				B87FB22E1DD1C29B0000DC41 /* frameworks */,
+			);
+			name = IM;
+			sourceTree = "<group>";
+		};
+		B87FB22E1DD1C29B0000DC41 /* frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B87FB2871DD2BDAC0000DC41 /* CoreTelephony.framework */,
+				B87FB2851DD2BDA40000DC41 /* SystemConfiguration.framework */,
+				B87FB2831DD2BD9C0000DC41 /* libc++.tbd */,
+				B87FB2811DD2BD8F0000DC41 /* libsqlite3.tbd */,
+				B87FB25B1DD2BCAB0000DC41 /* IMCore.framework */,
+				B87FB25C1DD2BCAB0000DC41 /* ImSDK.framework */,
+				B87FB25D1DD2BCAB0000DC41 /* IMSDKBugly.framework */,
+				B87FB25E1DD2BCAB0000DC41 /* QALSDK.framework */,
+				B87FB25F1DD2BCAB0000DC41 /* TLSSDK.framework */,
+			);
+			name = frameworks;
+			sourceTree = "<group>";
+		};
+		B87FB23C1DD1C66D0000DC41 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				B87FB23E1DD1C6A60000DC41 /* XMMessageInfo.h */,
+				B87FB23F1DD1C6A60000DC41 /* XMMessageInfo.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		B87FB23D1DD1C6760000DC41 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				B87FB2391DD1C4D20000DC41 /* XMIMController.h */,
+				B87FB23A1DD1C4D20000DC41 /* XMIMController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		B87FB2411DD1D9470000DC41 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				B87FB2421DD1D95D0000DC41 /* HJDanmaku */,
+			);
+			name = External;
+			sourceTree = "<group>";
+		};
+		B87FB2421DD1D95D0000DC41 /* HJDanmaku */ = {
+			isa = PBXGroup;
+			children = (
+				B87FB2431DD1D95D0000DC41 /* DanmakuView.h */,
+				B87FB2441DD1D95D0000DC41 /* DanmakuView.m */,
+				B87FB2451DD1D95D0000DC41 /* Model */,
+				B87FB24A1DD1D95D0000DC41 /* Renderer */,
+				B87FB24F1DD1D95D0000DC41 /* Util */,
+			);
+			path = HJDanmaku;
+			sourceTree = "<group>";
+		};
+		B87FB2451DD1D95D0000DC41 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B87FB2461DD1D95D0000DC41 /* DanmakuBaseModel.h */,
+				B87FB2471DD1D95D0000DC41 /* DanmakuBaseModel.m */,
+				B87FB2481DD1D95D0000DC41 /* DanmakuTime.h */,
+				B87FB2491DD1D95D0000DC41 /* DanmakuTime.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B87FB24A1DD1D95D0000DC41 /* Renderer */ = {
+			isa = PBXGroup;
+			children = (
+				B87FB24B1DD1D95D0000DC41 /* DanmakuRenderer.h */,
+				B87FB24C1DD1D95D0000DC41 /* DanmakuRenderer.m */,
+				B87FB24D1DD1D95D0000DC41 /* DanmakuRetainer.h */,
+				B87FB24E1DD1D95D0000DC41 /* DanmakuRetainer.m */,
+			);
+			path = Renderer;
+			sourceTree = "<group>";
+		};
+		B87FB24F1DD1D95D0000DC41 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				B87FB2501DD1D95D0000DC41 /* DanmakuFactory.h */,
+				B87FB2511DD1D95D0000DC41 /* DanmakuFactory.m */,
+				B87FB2521DD1D95D0000DC41 /* DanmakuFilter.h */,
+				B87FB2531DD1D95D0000DC41 /* DanmakuFilter.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		DC06A2F2EC5AAE1DD2BD9297 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F7BCEF9CA8340CD7B4E1DFF5 /* Pods-XMLive.debug.xcconfig */,
+				9F8FBB8B622C4C16C4B83CEA /* Pods-XMLive.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B87FB1D31DD176790000DC41 /* XMLive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B87FB1EB1DD176790000DC41 /* Build configuration list for PBXNativeTarget "XMLive" */;
+			buildPhases = (
+				25F201C967F11457806EC39D /* 📦 Check Pods Manifest.lock */,
+				B87FB1D01DD176790000DC41 /* Sources */,
+				B87FB1D11DD176790000DC41 /* Frameworks */,
+				B87FB1D21DD176790000DC41 /* Resources */,
+				EC273163D0E337B64CB08DE9 /* 📦 Embed Pods Frameworks */,
+				8629E8246B9E13051930F5CF /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XMLive;
+			productName = XMLive;
+			productReference = B87FB1D41DD176790000DC41 /* XMLive.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B87FB1CC1DD176790000DC41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "王泽";
+				TargetAttributes = {
+					B87FB1D31DD176790000DC41 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B87FB1CF1DD176790000DC41 /* Build configuration list for PBXProject "XMLive" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B87FB1CB1DD176790000DC41;
+			productRefGroup = B87FB1D51DD176790000DC41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B87FB1D31DD176790000DC41 /* XMLive */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B87FB1D21DD176790000DC41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B87FB1E71DD176790000DC41 /* LaunchScreen.storyboard in Resources */,
+				B87FB1E41DD176790000DC41 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25F201C967F11457806EC39D /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8629E8246B9E13051930F5CF /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XMLive/Pods-XMLive-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC273163D0E337B64CB08DE9 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XMLive/Pods-XMLive-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B87FB1D01DD176790000DC41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B87FB1FC1DD1B71E0000DC41 /* XMPCPlayerController.m in Sources */,
+				B87FB2011DD1BA800000DC41 /* MainViewController.m in Sources */,
+				B87FB2571DD1D95D0000DC41 /* DanmakuRenderer.m in Sources */,
+				B87FB23B1DD1C4D20000DC41 /* XMIMController.m in Sources */,
+				B87FB2101DD1BE360000DC41 /* XMPCFullScreenView.m in Sources */,
+				B87FB25A1DD1D95D0000DC41 /* DanmakuFilter.m in Sources */,
+				B87FB20D1DD1BDEE0000DC41 /* XMPCSmallScreenView.m in Sources */,
+				B87FB2551DD1D95D0000DC41 /* DanmakuBaseModel.m in Sources */,
+				B87FB2071DD1BD1E0000DC41 /* XMPhoneView.m in Sources */,
+				B87FB1F91DD1B7050000DC41 /* XMPhonePlayerController.m in Sources */,
+				B87FB2561DD1D95D0000DC41 /* DanmakuTime.m in Sources */,
+				B87FB2041DD1BAA20000DC41 /* XMRotatoUtil.m in Sources */,
+				B87FB2581DD1D95D0000DC41 /* DanmakuRetainer.m in Sources */,
+				B87FB1F21DD177AF0000DC41 /* XMFFPlayerManager.m in Sources */,
+				B87FB2591DD1D95D0000DC41 /* DanmakuFactory.m in Sources */,
+				B87FB1DC1DD176790000DC41 /* AppDelegate.m in Sources */,
+				B87FB20A1DD1BD6E0000DC41 /* XMBarrageViewCell.m in Sources */,
+				B87FB2401DD1C6A60000DC41 /* XMMessageInfo.m in Sources */,
+				B87FB2541DD1D95D0000DC41 /* DanmakuView.m in Sources */,
+				B87FB1D91DD176790000DC41 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B87FB1E51DD176790000DC41 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B87FB1E61DD176790000DC41 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B87FB1E91DD176790000DC41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B87FB1EA1DD176790000DC41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B87FB1EC1DD176790000DC41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7BCEF9CA8340CD7B4E1DFF5 /* Pods-XMLive.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/XMLive",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/WangZe/XMLive/XMLive/Prefix.pch;
+				INFOPLIST_FILE = XMLive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wangze.XMLive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B87FB1ED1DD176790000DC41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F8FBB8B622C4C16C4B83CEA /* Pods-XMLive.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/XMLive",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/WangZe/XMLive/XMLive/Prefix.pch;
+				INFOPLIST_FILE = XMLive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wangze.XMLive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B87FB1CF1DD176790000DC41 /* Build configuration list for PBXProject "XMLive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B87FB1E91DD176790000DC41 /* Debug */,
+				B87FB1EA1DD176790000DC41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B87FB1EB1DD176790000DC41 /* Build configuration list for PBXNativeTarget "XMLive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B87FB1EC1DD176790000DC41 /* Debug */,
+				B87FB1ED1DD176790000DC41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B87FB1CC1DD176790000DC41 /* Project object */;
+}

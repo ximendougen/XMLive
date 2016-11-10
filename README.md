@@ -1,8 +1,11 @@
-
 # IOS集成IJK直播(拉流),腾讯IM,弹幕,赞.
-###第一次搞简书,废话不多说,直接上干货
+###废话不多说,直接上干货
 
 现有的直播一般分为Phone端,PC端,通俗来说就是**手机直播**和**电脑端**直播,下面就是 *XMFFPlayerManager* 运行后的显示效果(PC端直播流没找到,关于分辨率大家别介意):
+
+###[demo下载连接](https://github.com/ximendougen/XMLive.git) 
+
+
 
 
 **Phone端**(竖屏):
@@ -23,15 +26,14 @@
 
 ![Mou icon](http://a1.qpic.cn/psb?/V13bEYKN3PHP3i/HlRlTyJaZV33bpNK55KcmM*1wW2bzH4sZaOkIWD*dio!/m/dNwAAAAAAAAA&bo=EgJ.AQAAAAADB00!&rf=photolist)
 
-绿色圈起来的是需要从第三方下载的库(*我这有份新鲜的大家可以拿去用*--[ijk(11月合并最新库)](https://twitter.com/mou) 密码: ,  [腾讯IMSDK(10月最新库)](https://twitter.com/mou) 密码:)
-
+绿色圈起来的是需要从第三方下载的库(*我这有份新鲜的大家可以拿去用*--[ijk & 腾讯IMSDK(10月合并最新库)](链接: https://pan.baidu.com/s/1gffY72j) 密码: fixp)
 
 
 #### 2. *XMFFPlayerManager* 的使用
 1. 测试接口(GET请求就够了);
 
 	```
-	http://116.211.167.106/api/live/aggregation?	uid=133825214&interest=1
+	http://116.211.167.106/api/live/aggregation?uid=133825214&interest=1
 	```
 	具体返回的数据结构我已经注释到代码中了	
 
@@ -229,3 +231,5 @@
 #### 4. 结束语
 
 希望本篇对即将需要学习和研发直播项目的同学们有所帮助;
+
+以后也会不定期更新一些工作中的实用技术,请大家多多关照 , github 上点个Star~
